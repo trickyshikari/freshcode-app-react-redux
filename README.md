@@ -1,29 +1,21 @@
-# Issue Tracker App on React+Redux, Express
+Приложение для менеджмента задач по проектам. 
+Пользователи приложения могут создавать доски 
+проектов которые содержат карточки — задачи проекта, 
+сгруппированные по спискам.
 
-## Quick Start
+Реализовано:
+- логин, регистрация, выход
+- создание, удаление и редактирование проектов;
+- создание, удаление и редактирование досок.
 
-### Setup
+Не реализовано:
+- активности;
+- редактирование карточек, drag-and-drop, модальное окно с содержимым карточек;
+- комментарии
 
-```bash
-# Docker build
-docker-compose build
+Команды для сборки, запуска:
+- docker-compose build
+- docker-compose up
+После запуска перейти на страницу http://localhost:3000
 
-```
 
-## Startup
-
-### Run Docker
-
-```bash
-# Docker up
-docker-compose up
-```
-
-### Application
-
-Open client at http://localhost:3000
-
-Authorize with next credentials:
-
-- Email: test@email.ru
-- Password: 123
