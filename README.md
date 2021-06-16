@@ -14,8 +14,9 @@
 - комментарии
 
 Команды для сборки, запуска:
-- docker-compose build
-- docker-compose up
+- docker-compose build;
+- docker-compose up.
+
 После запуска перейти на страницу http://localhost:3000
 
 
